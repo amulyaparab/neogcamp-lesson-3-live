@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Component Library</title>
-    <link href="styles.css" rel="stylesheet" />
+    <link href="/styles.css" rel="stylesheet" />
   </head>
   <body>
     <h1>Amulya's component library</h1>
@@ -54,7 +54,6 @@
     </ul>
 
     <h3>Unordered Inline List</h3>
-    <p>This list will not have bullets</p>
     <ul class="list-non-bullet">
       <li class="list-item-inline">Inline Item One</li>
       <li class="list-item-inline">Inline Item Two</li>
@@ -75,7 +74,7 @@
       <div class="nav-brand">IAmBrand</div>
       <ul class="list-non-bullet nav-pills">
         <li class="list-item-inline">
-          <a class="link" href="/">home</a>
+          <a class="link active-link" href="/">home</a>
         </li>
         <li class="list-item-inline">
           <a class="link" href="/">products</a>
@@ -97,26 +96,47 @@
     <hr />
 
     <h2>@section</h2>
+    <div class="container center-container">
+      <section class="section">
+        <h1>White section</h1>
+        <p>
+          This will have a white background. With the basics of the CSS language
+          covered, the next CSS topic for you to concentrate on is styling text
+          — one of the most common things you'll do with CSS. Here we look at
+          text styling fundamentals including setting font, boldness, italics,
+          line and letter spacing, drop shadows, and other text features. We
+          round off the module by looking at applying custom fonts to your page,
+          and styling lists and links.
+        </p>
+      </section>
+    </div>
 
-    <section>
-      <h3>White section</h3>
-      <p>This will have a white background</p>
-    </section>
-
-    <section>
-      <h3>Off-white section</h3>
-      <p>This will have a grey background</p>
-    </section>
+    <div class="container center-container">
+      <section class="section ow">
+        <h1>Off-white section</h1>
+        <p>
+          This will have a grey background. With the basics of the CSS language
+          covered, the next CSS topic for you to concentrate on is styling text
+          — one of the most common things you'll do with CSS. Here we look at
+          text styling fundamentals including setting font, boldness, italics,
+          line and letter spacing, drop shadows, and other text features. We
+          round off the module by looking at applying custom fonts to your page,
+          and styling lists and links.
+        </p>
+      </section>
+    </div>
 
     <hr />
 
     <h2>@footer</h2>
-    <footer>
-      <div>Some small heading inside</div>
-      <ul>
-        <li>socialOne</li>
-        <li>socialTwo</li>
-        <li>socialThree</li>
+    <footer class="footer">
+      <div class="footer-heading">Some small heading inside</div>
+      <ul class="list-non-bullet">
+        <li class="list-item-inline"><a class="link" href="/">socialOne</a></li>
+        <li class="list-item-inline"><a class="link" href="/">socialTwo</a></li>
+        <li class="list-item-inline">
+          <a class="link" href="/">socialThree</a>
+        </li>
       </ul>
     </footer>
 

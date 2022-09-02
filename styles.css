@@ -1,11 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 body {
   font-family: "Montserrat", sans-serif;
+  margin: 0px;
 }
 
 :root {
   --primary-color: #a78bfa;
   --dark-grey: #6b7280;
+  --off-white: #e5e7eb;
+  --darker-grey: #374151;
+  --dark-indigo: #231950;
 }
 
 hr {
@@ -17,7 +21,7 @@ hr {
 }
 
 .center-container {
-  max-width: 600px;
+  max-width: 700px;
   margin: auto;
 }
 
@@ -26,15 +30,21 @@ hr {
   text-decoration: none;
 }
 .link-primary {
-  background-color: var(--primary-color);
+  display: block;
+  text-align: center;
+  background-color: var(--dark-indigo);
   color: white;
   border-radius: 0.5rem;
+  margin-top: 2rem;
 }
 
 .link-secondary {
-  color: var(--primary-color);
+  display: block;
+  text-align: center;
+  color: var(--dark-indigo);
   border-radius: 0.5rem;
-  border: 1px solid var(--primary-color);
+  border: 1px solid var(--dark-indigo);
+  margin-top: 2rem;
 }
 
 .list-non-bullet {
@@ -50,26 +60,27 @@ hr {
   background-color: var(--primary-color);
   color: white;
   padding: 1rem;
-  border-bottom-left-radius: 0.5rem;
+  border-radius: 0.5rem;
 }
 
 .navigation .nav-brand {
   font-weight: bolder;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 
+.navigation .active-link {
+  font-weight: bold;
+}
 .navigation .nav-pills {
   text-align: right;
 }
 
 .navigation .link {
   color: white;
-
-  font-weight: bold;
 }
 
 .hero {
-  padding: 2rem;
+  padding: 6rem;
 }
 
 .hero .hero-img {
@@ -83,4 +94,45 @@ hr {
   color: var(--dark-grey);
   text-align: center;
   padding-top: 1rem;
+}
+
+.section {
+  padding: 2rem;
+}
+
+.section h1 {
+  text-align: center;
+  color: var(--dark-indigo);
+}
+
+.section h3 {
+  text-align: center;
+  color: #361b8598;
+  font-size: medium;
+}
+
+.ow {
+  background-color: var(--off-white);
+}
+
+.footer {
+  background-color: var(--dark-indigo);
+  text-align: center;
+  padding: 3rem;
+  color: white;
+  border-radius: 0.5rem;
+}
+
+.footer .footer-heading {
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding-bottom: 1rem;
+}
+
+.footer .link {
+  color: white;
+}
+
+.footer ul {
+  padding-inline-start: 0px;
 }
