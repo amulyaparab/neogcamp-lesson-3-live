@@ -137,7 +137,10 @@ hr {
   margin-bottom: 3rem;
   text-align: justify;
 }
-
+.squid-img {
+  max-width: 300px;
+  display: inline-block;
+}
 .footer {
   background-color: var(--dark-indigo);
   text-align: center;
