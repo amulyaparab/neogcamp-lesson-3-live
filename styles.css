@@ -122,6 +122,11 @@ hr {
   font-size: medium;
 }
 
+.section small {
+  color: #361b8598;
+  font-weight: bold;
+}
+
 .whitish {
   background-color: #f1f0ff;
   border-radius: 00.5rem;
